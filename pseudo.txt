@@ -1,0 +1,10 @@
+unique_string takes string:
+  create temp_list
+  for each char in the string
+    if character exists in list:
+      return false
+    if character is ' ':
+      continue
+    otherwise:
+      character.append list
+  return true

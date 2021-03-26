@@ -1,0 +1,7 @@
+write a function that takes in a string
+  iterate throught the string
+    check if the character already exists in the list
+      return false
+    otherwise
+      add each character to a list
+    return true
